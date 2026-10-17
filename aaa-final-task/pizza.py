@@ -23,7 +23,7 @@ class Pizza:
         self.size = size
 
     def dict(self) -> dict[str, object]:
-        """Возврщает описание пиццы в виде словаря."""
+        """Возвращает описание пиццы в виде словаря."""
         return {
             "name": self.name,
             "icon": self.icon,
